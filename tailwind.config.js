@@ -1,9 +1,7 @@
 module.exports = {
-  future: {},
-  purge: [],
-  theme: {
-    extend: {},
+  purge: {
+    layers: ["components", "utilities"],
+    content: ["./src/**/*.html"],
   },
-  variants: {},
-  plugins: [],
+  // ...
 };
